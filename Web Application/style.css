@@ -1,0 +1,117 @@
+/* HTML styling */
+p, h1, h2 {
+    font-family: Calibri;
+    color: #212529;
+}
+
+#bodyContainer {
+    margin: 10px 150px;
+    border: 2px solid #868789;
+    padding: 20px;
+    min-width: 1000px;
+    max-width: 1300px;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+/******************************************************/
+
+/* Image */
+#companyLogo {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    margin-right: 20px;
+}
+/******************************************************/
+
+/* Navigation Bar */
+.navBar {
+    font-family: Consolas;
+    background-color: #0E8EA8;
+}
+
+#dashboard, #inventory, #orders {
+    color: #fff;
+}
+
+#dashboard {
+    font-weight: bold;
+}
+
+#dashboard:hover {
+    font-weight: normal;
+}
+
+.navItem {
+    font-family: Consolas;
+    background-color: #83D1E1;
+    color: #212529;
+}
+
+.nav-item .dropdown-menu {
+    display: none;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+/******************************************************/
+
+/* Tables */
+#staffTable, #scheduleDelivery, #deliveryBoard {
+    border-color: #212529;
+    border: 1px solid #212529;
+    border-radius: 10px;
+    text-align: center;
+}
+
+thead {
+    font-family: Consolas;
+    background-color: #0E8EA8;
+    color: #fff;
+}
+
+tbody {
+    font-family: Calibri;
+    background-color: #83D1E1;
+    color: #212529;
+}
+/******************************************************/
+
+/* Buttons */
+.buttons {
+    font-family: Consolas;
+    width: 100px;
+    position: absolute;
+    margin-bottom: 20px;
+    transition: font-size 0.5s;
+}
+
+.buttons:hover {
+    font-size: 20px;
+}
+
+.btnPositive {
+    background-color: #198754;
+    color: #fff;
+}
+
+.btnNegative {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btnRight {
+    right: 20px;
+}
+/******************************************************/
+
+/* Digital Clock */
+#clock {
+    margin-top: 75px;
+    text-align: right;
+}
