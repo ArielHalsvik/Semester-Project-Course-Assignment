@@ -4,9 +4,13 @@ Grade: A (90-100)
 
 This is the Semester Project I got at the end of my first semester. The task was to create a Reception Management Dashboard for a company. We had to fulfill their criteria and utilize Jira to strategize the development of this web application.
 
-The *Initial Commit* is the original code I got for the assignment.
+The *Initial Commit* is the original code I got for the assignment. This was only a readme and a company logo png file.
 
 The *Final Commit* is my finished code that I sent in for the assignment.
+
+# Screenshot
+
+![screenshot](screenshot.png)
 
 # Reception Management Dashboard
 
